@@ -1,41 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>مدرب التصميم</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div id="gameContainer">
-    <div id="startScreen">
-        <h1>مدرب التصميم</h1>
-        <p style="margin-bottom: 20px; text-align: center; line-height: 1.5; direction: rtl;">
-            اقرأ كل اختيار بعناية!<br>
-            "كُل" قواعد التصميم الجيد وتجنب السيء
-        </p>
-        <button onclick="startGame()">ابدأ اللعبة</button>
-        <div class="controls">
-            استخدم A/D أو الأسهم ←/→ للحركة يميناً ويساراً
-        </div>
-    </div>
-    <div id="gameArea">
-        <div class="lane"></div>
-        <div class="lane"></div>
-        <div class="lane"></div>
-        <div id="player">😊</div>
-    </div>
-    <div id="ui">
-        <div id="score">النقاط: 0</div>
-        <div id="lives">الحياة: ❤️❤️❤️</div>
-    </div>
-    <div id="gameOver">
-        <h2>انتهت اللعبة!</h2>
-        <p id="finalScore">النقاط النهائية: 0</p>
-        <p style="margin: 20px 0; direction: rtl;">تذكر: اقرأ كل اختيار جيداً قبل أن "تأكله"!</p>
-        <button onclick="restartGame()">العب مرة أخرى</button>
-    </div>
-</div>
-<script src="script.js"></script>
-</body>
-</html>
